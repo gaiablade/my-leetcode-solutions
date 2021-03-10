@@ -31,6 +31,5 @@ public:
 };
 
 int main() {
-    Solution s;
-    std::cout << s.lengthOfLongestSubstring("abcabcbb") << std::endl;
+    std::cout << Solution().lengthOfLongestSubstring("abcabcbb") << std::endl;
 }
